@@ -1,0 +1,22 @@
+{
+  "pair": "hi_sd",
+  "src_lang": "Hindi",
+  "tgt_lang": "Sindhi",
+  "n_source_pairs": 5000,
+  "n_contrastive": 10000,
+  "direction_counts": {
+    "Sd→Hi": 5000,
+    "Hi→Sd": 5000
+  },
+  "counterfactual_types": {
+    "target_nullification": 2519,
+    "action_distortion": 2497,
+    "paradox_insertion": 2554,
+    "semantic_obfuscation": 2430
+  },
+  "src_mean_words": 22.0566,
+  "tgt_mean_words": 21.7568,
+  "seed": 42,
+  "implosive_pairs": 5000,
+  "implosive_ratio": 1.0
+}

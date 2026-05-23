@@ -1,0 +1,20 @@
+{
+  "pair": "hi_ur",
+  "src_lang": "Hindi",
+  "tgt_lang": "Urdu",
+  "n_source_pairs": 5000,
+  "n_contrastive": 10000,
+  "direction_counts": {
+    "Ur→Hi": 5000,
+    "Hi→Ur": 5000
+  },
+  "counterfactual_types": {
+    "action_distortion": 2456,
+    "target_nullification": 2457,
+    "semantic_obfuscation": 2502,
+    "paradox_insertion": 2585
+  },
+  "src_mean_words": 18.6876,
+  "tgt_mean_words": 19.8878,
+  "seed": 42
+}

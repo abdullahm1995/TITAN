@@ -1,0 +1,20 @@
+{
+  "pair": "en_fr",
+  "src_lang": "English",
+  "tgt_lang": "French",
+  "n_source_pairs": 5000,
+  "n_contrastive": 10000,
+  "direction_counts": {
+    "Fr→En": 5000,
+    "En→Fr": 5000
+  },
+  "counterfactual_types": {
+    "semantic_obfuscation": 2497,
+    "action_distortion": 2457,
+    "paradox_insertion": 2576,
+    "target_nullification": 2470
+  },
+  "src_mean_words": 25.7974,
+  "tgt_mean_words": 27.2196,
+  "seed": 42
+}

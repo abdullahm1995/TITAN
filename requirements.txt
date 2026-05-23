@@ -1,0 +1,24 @@
+# Python >= 3.10
+
+# Core deep learning
+torch>=2.2.0
+transformers>=4.40.0
+accelerate>=0.28.0
+
+# Fine-tuning
+peft>=0.10.0
+trl>=0.8.0
+
+# Sparse autoencoder training
+numpy>=1.26.0
+
+# Data loading / processing
+datasets>=2.18.0
+pandas>=2.0.0
+
+# Evaluation
+sacrebleu>=2.4.0
+bert-score>=0.3.13
+
+# Utilities
+tqdm>=4.66.0
