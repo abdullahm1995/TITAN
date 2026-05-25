@@ -426,7 +426,7 @@ This preserves the translation gains from Stage 6 while allowing preference lear
 | `DPO_BETA` | 0.5 | KL penalty coefficient |
 | `DPO_LEARNING_RATE` | 1e-6 | Adam learning rate |
 | `DPO_BATCH_SIZE` | 8 | Per-GPU batch size |
-| `DPO_MAX_EPOCHS` | 1 | Training epochs |
+| `DPO_MAX_EPOCHS` | 2 | Training epochs |
 
 ---
 
@@ -479,7 +479,7 @@ Evaluates the final DPO model in both translation directions on `data/val.csv`.
 | BLEU | n-gram precision (sacreBLEU implementation) |
 | chrF++ | Character n-gram F-score |
 | TER | Translation edit rate |
-| BERTScore | Contextual embedding similarity (`bert-base-multilingual-cased`) |
+| Comet | Cross-lingual Optimized Metric for Evaluation of Translation |
 
 Results are written to `outputs/eval_results.json`.
 
